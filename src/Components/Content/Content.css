@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'Tracey Reborn';
+  src: url(../../Fonts/Traceyreborn-Regular.ttf);
+}
+
+#content {
+  display: inline-block;
+  position: fixed;
+  width: 40%;
+  /*margin:5% auto;*/
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  padding: 2em;
+  line-height: 1.5em;
+  border: solid 5px black;
+  /*border-right: none;*/
+  text-align: left;
+  font-size: 22px;
+  font-family: 'Tracey Reborn';
+  -webkit-text-stroke: 0.5px black;
+  height: 250px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  left:400px;
+  letter-spacing: 0.8px;
+}
+
+#nav-bar {
+    display: flex;
+    position: fixed;
+    left: 700px;
+    top: 128px;
+    z-index:100;
+}
+
+.nav-button {
+    border-radius: 255px 15px 225px 15px/15px 225px 0px 255px;
+    border: solid 5px black;
+    border-bottom: 0px;
+    background-color: transparent;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family: 'Tracey Reborn';
+    font-size: 16px;
+    -webkit-text-stroke: 1px darkgray;
+    color: darkgray;
+    user-select: none;
+    cursor: pointer;
+}
+
+.nav-button-active {
+    border-radius: 255px 15px 225px 15px/15px 225px 0px 255px;
+    border: solid 5px black;
+    border-bottom: 0px;
+    background-color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family: 'Tracey Reborn';
+    font-size: 16px;
+    -webkit-text-stroke: 1px black;
+    color: black;
+    user-select: none;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    color:rgb(58, 58, 58)
+}
+
+#main-content {
+    height: 250px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+#main-content::-webkit-scrollbar {
+  width: 0.25em;
+}
+
+#main-content::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px lightgray;
+  border-radius: 15px 225px 15px 255px;
+}
+
+#main-content::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 15px 225px 15px 255px;
+}
+
+#content div {
+  margin: 20px;
+}

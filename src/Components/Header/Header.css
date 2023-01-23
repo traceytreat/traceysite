@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Tracey Reborn';
+    src: url(../../Fonts/Traceyreborn-Regular.ttf);
+}
+header {
+    font-size: 70px;
+    font-family: 'Tracey Reborn';
+    letter-spacing: -8px;
+    text-align: left;
+    margin: 30px;
+}
