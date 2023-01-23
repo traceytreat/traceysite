@@ -21,14 +21,26 @@
   overflow-x: hidden;
   overflow-y: scroll;
   left:400px;
+  right:0px;
   letter-spacing: 0.8px;
+}
+
+a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 .path {
     stroke-dasharray: 3000;
     stroke-dashoffset: 3000;
-    animation: dash 20s linear forwards infinite;
+    animation: dash 45s linear forwards infinite;
+    transform: scale(1.02);
+    
+}
+
+.path:hover {
+    animation-play-state: paused;
 }
 
 @keyframes dash {
@@ -41,12 +53,14 @@
 #drawing {
     position: fixed;
     bottom: 0px;
+    left: 0px;
 }
 
 #nav-bar {
     display: flex;
     position: fixed;
     left: 700px;
+    right: 0px;
     top: 128px;
     z-index:100;
 }
