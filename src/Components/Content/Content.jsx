@@ -23,6 +23,9 @@ export default function Content() {
         Tracey is a full stack software engineer and an artist. She designed her first website at age 9 and has been coding nonstop since then.
         She loves to draw comics and write funny stories. She is also an avid Pokémon fan!
       </div>
+      <div id="rotating-text">
+        Thanks for visiting!
+      </div><br />
     </section>
   )
 
