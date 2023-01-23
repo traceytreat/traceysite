@@ -24,6 +24,25 @@
   letter-spacing: 0.8px;
 }
 
+
+.path {
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+    animation: dash 20s linear forwards infinite;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+
+#drawing {
+    position: fixed;
+    bottom: 0px;
+}
+
 #nav-bar {
     display: flex;
     position: fixed;
